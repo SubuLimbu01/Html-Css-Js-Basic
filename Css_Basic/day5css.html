@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+       div.umm {
+        border:2px,solid,black;
+        color: blue;
+        max-width: 30%;
+        margin: auto;
+       }
+       
+       div.in {
+        border:2px,solid,black;
+        color:aquamarine;
+        max-width: 50%;
+        margin: auto;
+       }
+
+       p.static {
+         position: static;
+         border:3px,solid,lightblue;
+       }
+
+       p.relative {
+         position: relative;
+         left: 10%;
+         border:3px,solid,khaki;
+       }
+
+       p.fixed {
+         position: fixed;
+         border: 3px, dotted,blue;
+         bottom: 0%;
+         right: 0%;
+         height: 20%;
+         width: 20%;
+       }
+
+       p.absolute {
+         position: fixed;
+         border: 3px, dashed, green;
+      }
+
+      div.sticky {
+         position: sticky;
+         border: 3px,solid, lightcoral;
+         background-color: greenyellow;
+         height:20px;
+
+      }
+
+      p.h {
+         background-color: lightblue;
+         border: 3px,solid,black;
+         padding:20px;
+      }
+
+
+
+
+       
+
+
+    </style>
+</head>
+<body>
+    <!-- max width -->
+     <div class="umm">
+        This is maximum width used in this element
+     </div>
+     
+     <div class="in">
+        Using max width for the first time
+     </div>
+
+     <!-- css position -->
+      <h1>Static and relative</h1>
+      <p class="static">This is static code</p>
+
+      <p class="relative">This is relative code</p>
+
+    
+
+   
+      <h1>Sticky</h1>
+      <div class="sticky">I am sticky position.</p>
+
+      <p class="h">position: sticky; in CSS is a positioning property that works as a mix of relative and fixed positioning.
+         At first, the element behaves like relative, meaning it stays in its normal position in the page layout.
+         But when you scroll and the element reaches a specific point (for example, top: 0), it becomes “sticky”
+         and stays fixed at that position on the screen while the rest of the content continues to scroll.
+         To use it, you must define at least one value like top, bottom, left, or right, otherwise 
+         it will not work. Sticky elements only work within their parent container, so they stop
+         sticking when the container ends. This property is commonly used for navigation bars, headers, or 
+         section titles so that important information remains visible as the user scrolls.</p>
+
+      <br>
+      <hr>
+
+      <h1>Fixed and Abosolute position</h1>
+      <p class="fixed">This is fixed position</p>
+
+      <p class="absolute">This is Abosolute position</p>
+
+      
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        span.a {
+            display: inline-block;
+            border: 2px, solid red;
+            color: black;
+            height: 50px;
+            width: 100px;
+
+        }
+
+        .center {
+            border: 2px, solid, green;
+            height: 200px;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+
+        }
+
+        div~p {
+            background-color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- display : inline -->
+
+    <h1>Display : inline-block</h1>
+    <p>The history of Nepal is rich and diverse, shaped by many cultures,
+        kingdoms, and traditions over thousands of years. In ancient times,
+        the region was ruled by the Kirat dynasty, followed by the Licchavi
+        period, which brought development in art, <span class="a">architecture, </span> and <span
+            class="a">governance.</span>
+        Later, during the Malla period, Nepal saw the growth of beautiful cities
+        like Kathmandu, Bhaktapur, and Patan, known for their temples and culture.
+        In the 18th century, Prithvi Narayan Shah unified the small kingdoms into
+        one nation, forming modern Nepal. After this, the country went through the
+        Rana rule, where prime ministers held most of the power, limiting the king’s
+        authority. In 1951, democracy was introduced, although Nepal faced many political
+        changes afterward, including becoming a republic in 2008. Today, Nepal is known
+        for its cultural diversity, history, and natural beauty, including the famous Mount Everest</p>
+
+    <!-- Align -->
+
+    <h1>Center Align</h1>
+
+    <p>A flex container with both the justify-content and the align-items
+        properties set to center, will align the item(s) in the center (in both axis).</p>
+
+    <div class="center">
+        <p>I am vertically and horizontally centered.</p>
+    </div>
+
+    <!-- combinators -->
+
+    <h1>combinators : space</h1>
+
+    <div>
+        <p>Paragraph 2 in the div.</p>
+        <p>Paragraph 2 in the div.</p>
+        <p>Paragraph 2 in the div.</p>
+    </div>
+
+    <p>Paragraph 2 in the div.</p>
+    <p>Paragraph 2 in the div.</p>
+
+     <h1>combinator</h1>
+     <div>
+    <P>(Space) Descendant combinator</P>
+    <p>(>) child combinator</p>
+    <p> (+) Next sibling combinator</p>
+    <p>(~) Subsequent-sibling combinator</p>
+    </div>
+
+
+</body>
+
+</html>

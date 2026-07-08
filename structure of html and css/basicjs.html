@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      function myfunction() {
+        document.getElementById("demo").innerHTML = "Paragraph changed.";
+      }
+
+      function myfunction() {
+        document.getElementById("basicjs").innerHTML =
+          "learning basic javascript";
+      }
+    </script>
+  </head>
+
+  <body>
+    <h1>
+      document.getElementById is the most useful menthod while writing a
+      javascript
+    </h1>
+
+    <h1>what can js do</h1>
+    <div>update html</div>
+    <div>update css</div>
+    <div>validdate</div>
+    <div>manipulate</div>
+
+    <p id="js">javascript can update html</p>
+
+    <button
+      type="button"
+      onclick="document.getElementById('js').innerHTML = 'Hello Javascript'"
+    >
+      click Me!
+    </button>
+
+    <p id="javascript"></p>
+    <script>
+      document.getElementById("javascript").innerHTML = "learning basic";
+    </script>
+
+    <br />
+    <hr />
+
+    <h1 id="demo">Demo of html in head</h1>
+
+    <button type="button" onclick="myfunction()">Try once</button>
+
+    <p id="basic">Hello world</p>
+    <button
+      type="button"
+      onclick="document.getElementById('basic').innerHTML = 'Hello everyone'"
+    >
+      try it!
+    </button>
+
+    <p id="basicjs">what are you doing in javascript?</p>
+
+    <button type="button" onclick="myfunction()">click once!</button>
+
+    <h2>Giving demo of javascript(function) in body</h2>
+    <p id="what">what is js?</p>
+
+    <button type="button" onclick="myfunction()">hello!</button>
+
+    <script>
+      function myfunction() {
+        document.getElementById("what").innerHTML =
+          "javascript is a programming language";
+      }
+    </script>
+
+
+ 
+    <h2>Demo of external javascript</h2>
+    <p id="give">paragragh is changing</p>
+
+    <button type="button" onclick="myfunction()">click me pls!</button>
+
+    <script src="myScript.js">paraghragh changed</script>
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

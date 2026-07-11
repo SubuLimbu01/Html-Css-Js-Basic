@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      h1 {
+        text-align: center;
+      }
+    </style>
+    <script>
+      function myfunction() {
+        document.getElementById("ki").innerHTML = "Javascript coder";
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Javascript output</h1>
+
+    <p id="learn">Learn What?</p>
+    <button
+      type="button"
+      onclick="
+        document.getElementById('learn').innerHTML = 'learn js javascript'
+      "
+    >
+      click me!
+    </button>
+
+    <h4 id="ki">What coder?</h4>
+    <button type="button" onclick="myfunction()">Hello there!</button>
+
+    <h4>My first webpage</h4>
+    <script>
+      document.write(5 + 3);
+    </script>
+
+    <br />
+    <br />
+    <br />
+
+    <button type="button" onclick="document.write(3 + 7)" ;>Try once!</button>
+
+    <script>
+      window.alert(9 + 4);
+    </script>
+
+    <script>
+      alert(2 + 1);
+    </script>
+
+    <script>
+      console.log(6 + 2);
+    </script>
+
+    <br />
+    <br />
+    <br />
+
+    <button onclick="window.print()">print this immage</button>
+  </body>
+</html>

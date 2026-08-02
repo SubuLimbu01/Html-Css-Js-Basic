@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 style="text-align: center">JAVASCRIPT (LET AND CONST)</h1>
+
+    <script>
+      function myfunction() {
+        let x = "1";
+      }
+      console.log(x);
+    </script>
+
+    <h5>
+      <div>1.Let is a blockscope.</div>
+      <div>2.Const is a blockscope.</div>
+      <div>3.Var is a globalscope.</div>
+    </h5>
+
+    <h5>
+      (Let and const can be declared but cannot be redeclared. whereas Var is a
+      all over gobalscope so it can be redeclared and declared.)
+    </h5>
+
+    <h2>JAVASCRIPT const</h2>
+
+    <p id="demo"></p>
+
+    <script>
+      try {
+        const PI = 3.141592653589793;
+        PI = 3.14;
+      } catch (err) {
+        document.getElementById("demo").innerHTML = "err";
+      }
+    </script>
+
+    <p id="js"></p>
+
+    <script>
+      const country = ["Nepal", "India", "Thailand"];
+
+      country[0] = "Korea";
+
+      country.push("Japan");
+
+      document.getElementById("js").innerHTML = "country";
+    </script>
+
+    <p id="basic"></p>
+
+    <script>
+      try {
+        const country = ["Nepal", "India", "Thailand"];
+        country = ["Japan", "Korea", "rFance"];
+      } catch (err) {
+        document.getElementById("basic").innerHTML = "err";
+      }
+    </script>
+
+    <h3>Gobalscope</h3>
+    <script>
+        let x = "hello world";
+    </script>
+
+    <h3>Functionscope</h3>
+    <script>
+        function demo(){
+            var x = "hello everyone";
+        }
+    </script>
+
+    <h3>Blockscope</h3>
+    <script>
+        {
+            let x ="hello country";
+        }
+    </script>
+    <script>
+        let y ="20";
+        {
+            let x ="10";
+        }
+    </script>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
